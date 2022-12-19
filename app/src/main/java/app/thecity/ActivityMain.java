@@ -56,7 +56,6 @@ public class ActivityMain extends AppCompatActivity {
         db = new DatabaseHandler(this);
         sharedPref = new SharedPref(this);
 
-        prepareAds();
 
         initToolbar();
         initDrawerMenu();
@@ -98,11 +97,11 @@ public class ActivityMain extends AppCompatActivity {
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView = (Navi0gationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
-                showInterstitialAd();
+
                 return onItemSelected(item.getItemId(), item.getTitle().toString());
             }
         });
@@ -296,16 +295,9 @@ public class ActivityMain extends AppCompatActivity {
 
     private AdNetworkHelper adNetworkHelper;
 
-    private void prepareAds() {
-        adNetworkHelper = new AdNetworkHelper(this);
-        adNetworkHelper.showGDPR();
-        adNetworkHelper.loadBannerAd(AdConfig.ADS_MAIN_BANNER);
-        adNetworkHelper.loadInterstitialAd(AdConfig.ADS_MAIN_INTERSTITIAL);
-    }
 
-    public void showInterstitialAd() {
-        adNetworkHelper.showInterstitialAd(AdConfig.ADS_MAIN_INTERSTITIAL);
-    }
+
+
 
 
     public static ActivityMain getInstance() {
