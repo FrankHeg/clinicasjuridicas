@@ -86,7 +86,7 @@ public class FragmentCategory extends Fragment {
             public void onItemClick(View v, Place obj) {
                 ActivityPlaceDetail.navigate((ActivityMain) getActivity(), v.findViewById(R.id.lyt_content), obj);
                 try {
-                    ((ActivityMain) getActivity()).showInterstitialAd();
+                //    ((ActivityMain) getActivity()).showInterstitialAd();
                 } catch (Exception e) {
                 }
             }

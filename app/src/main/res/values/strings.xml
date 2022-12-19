@@ -1,108 +1,103 @@
 <resources>
     <string name="app_name">Protocolo Clinicas Juridicas</string>
 
-    <string name="city_name">Bandung</string>
-    <string name="city_address">Jawa Barat, Indonesia</string>
-    <string name="about_text">App display Interesting spot at City</string>
+    <string name="city_name">Temuco</string>
+    <string name="city_address">Región de la Araucania</string>
+    <string name="about_text">Poniendo la justicia al alcance de todos</string>
 
     <!-- Replace with your more apps URL -->
-    <string name="more_app_url">http://portfolio.dream-space.web.id/</string>
+    <string name="more_app_url">www.challwafe.com</string>
 
     <!--=== DATA FOR ADMOB ===================================================================== -->
-    <string name="privacy_policy_url">
-        http://dream-space.web.id/doc_privacy/privacy_policy.php?name=The%20City
-    </string>
 
 
     <!--=== GOOGLE API KEY STRING ============================================================== -->
     <!-- API KEY FOR MAP -->
-    <string name="api_key">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+    <string name="api_key" translatable="false">AIzaSyATVV_H8GI9Me0two9IW8MGDCx2ghHXf8E</string>
 
 
     <!--=== Nav Drawer Menu Items ============================================================== -->
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="title_nav_all">All Places</string>
-    <string name="title_nav_fav">Favorites</string>
-    <string name="title_nav_news">News Info</string>
+    <string name="navigation_drawer_close">Cerrar navegador</string>
+    <string name="title_nav_all">Todo</string>
+    <string name="title_nav_fav">Favoritos</string>
+    <string name="title_nav_news">Noticias</string>
 
-    <string name="title_nav_featured">Featured Places</string>
-    <string name="title_nav_tour">Tourist Destination</string>
-    <string name="title_nav_food">Food \u0026 Drink</string>
-    <string name="title_nav_hotels">Hotels</string>
-    <string name="title_nav_ent">Entertainment</string>
-    <string name="title_nav_sport">Sport</string>
-    <string name="title_nav_shop">Shopping</string>
-    <string name="title_nav_transport">Transportation</string>
-    <string name="title_nav_religion">Religion</string>
-    <string name="title_nav_public">Public Services</string>
-    <string name="title_nav_money">Money</string>
+    <string name="title_nav_featured">Clinicas Juridicas</string>
+    <string name="title_nav_tour">Poder Judicial</string>
+    <string name="title_nav_food">CONADI</string>
+    <string name="title_nav_hotels">Migración</string>
+    <string name="title_nav_ent">Otros servicios públicos</string>
+    <string name="title_nav_sport">Policia y Carabineros</string>
+    <string name="title_nav_shop">otro</string>
+    <string name="title_nav_transport">otro</string>
+    <string name="title_nav_religion">otro</string>
+    <string name="title_nav_public">otro</string>
+    <string name="title_nav_money">otro</string>
 
     <!--=== activity FullScreenImage =========================================================== -->
     <string name="image_of">%1$d of %2$d</string>
 
     <!--=== activity Main ====================================================================== -->
-    <string name="press_again_exit_app">Press again to exit</string>
+    <string name="press_again_exit_app">Presione de nuevo para salir</string>
 
     <!--=== activity Maps ====================================================================== -->
-    <string name="no_item_at">No Item at</string>
+    <string name="no_item_at">"No Item "</string>
     <string name="dialog_content_gps">
         GPS is disabled in your device. Would you like to enable it?
     </string>
-    <string name="activity_title_maps">@string/title_nav_all</string>
+    <string name="activity_title_maps" translatable="false">@string/title_nav_all</string>
 
     <!--=== activity PlaceDetails ============================================================== -->
-    <string name="add_favorite">added to favorites</string>
-    <string name="remove_favorite">remove from favorites</string>
-    <string name="no_phone_number">do not have a phone</string>
-    <string name="no_website">do not have a website</string>
-    <string name="fail_dial_number">Cannot dial phone number</string>
-    <string name="fail_open_website">Cannot open website</string>
-    <string name="unable_create_map">Sorry! unable to create maps</string>
-    <string name="failed_load_details">Failed load place details</string>
-    <string name="photos_title">Photos</string>
-    <string name="description_title">Description</string>
-    <string name="map_title">Map</string>
-    <string name="map_view">VIEW</string>
-    <string name="map_navigate">NAVIGATE</string>
+    <string name="add_favorite">agregar a favoritos</string>
+    <string name="remove_favorite">remover de favoritos</string>
+    <string name="no_phone_number">No telefono</string>
+    <string name="no_website">no web</string>
+    <string name="fail_open_website">Web no disponible</string>
+    <string name="unable_create_map">No se pueden crear mapas</string>
+    <string name="failed_load_details">No se puede descargar los datos</string>
+    <string name="photos_title">Fotos</string>
+    <string name="description_title">Descripción</string>
+    <string name="map_title">Mapa</string>
+    <string name="map_view">VER</string>
+    <string name="map_navigate">NAVEGAR</string>
 
     <!--=== activity Search ==================================================================== -->
-    <string name="hint_search">Search Place...</string>
-    <string name="please_fill">Please fill search input</string>
+    <string name="hint_search">Buscar lugar...</string>
+    <string name="please_fill">Buscar ...</string>
 
     <!--=== activity Setting =================================================================== -->
     <string name="default_notification_channel_id">Default</string>
-    <string name="developer_name">Dream Space</string>
-    <string name="copyright">Copyright © 2016 Dream Space. \nAll right reserved</string>
-    <string name="pref_category_notif">Notifications</string>
+    <string name="developer_name">Chllwafe app</string>
+    <string name="copyright">Copyright © 2016 Dream Space.  All right reserved</string>
+    <string name="pref_category_notif">Notificaciones</string>
     <string name="pref_category_display">Display</string>
-    <string name="pref_category_other">Others</string>
+    <string name="pref_category_other">Otros</string>
 
-    <string name="pref_title_notif">Push Notifications</string>
+    <string name="pref_title_notif">Notificaciones</string>
     <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_title_vibrate">Vibrate</string>
-    <string name="pref_title_cache">Clear Image Cache</string>
-    <string name="pref_title_theme">Theme Color</string>
-    <string name="pref_title_more">More Apps</string>
-    <string name="pref_title_rate">Rate</string>
-    <string name="pref_title_about">About</string>
-    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrar</string>
+    <string name="pref_title_cache">Linmpiar Cache</string>
+    <string name="pref_title_theme">" Color"</string>
+    <string name="pref_title_more">Mas Apps</string>
+    <string name="pref_title_rate">Votar</string>
+    <string name="pref_title_about">Nosotros</string>
+    <string name="pref_ringtone_silent">Silenciar</string>
     <string name="pref_title_copyright">Copyright</string>
-    <string name="pref_title_dev_name">Developed By</string>
-    <string name="pref_title_term">Term &amp; Policies</string>
+    <string name="pref_title_dev_name">Desarrolado por</string>
+    <string name="pref_title_term" translatable="false">Term &amp; Policies</string>
 
-    <string name="pref_key_notif">key_notifications</string>
-    <string name="pref_key_ringtone">key_ringtone</string>
-    <string name="pref_key_vibrate">key_vibrate</string>
-    <string name="pref_key_reset_cache">key_reset_cache</string>
-    <string name="pref_key_theme">key_theme</string>
-    <string name="dialog_confirm_title">Confirmation</string>
-    <string name="dialog_about_title">About</string>
-    <string name="activity_title_settings">Settings</string>
+    <string name="pref_key_notif" translatable="false">key_notifications</string>
+    <string name="pref_key_ringtone" translatable="false">key_ringtone</string>
+    <string name="pref_key_vibrate" translatable="false">key_vibrate</string>
+    <string name="pref_key_reset_cache" translatable="false">key_reset_cache</string>
+    <string name="pref_key_theme" translatable="false">key_theme</string>
+    <string name="dialog_confirm_title">Confirmacion</string>
+    <string name="dialog_about_title">Nosotros</string>
+    <string name="activity_title_settings">Ajustes</string>
 
-    <string name="message_clear_image_cache">Are you sure want to clear image cache?</string>
-    <string name="message_after_clear_image_cache">Image cache successfully clear</string>
-    <string name="title_dialog_theme">Color Theme</string>
+    <string name="message_clear_image_cache">Seguro quieres limpiar el cache?</string>
+    <string name="message_after_clear_image_cache">" cache limpiado"</string>
+    <string name="title_dialog_theme">"Color "</string>
     <string name="grant_permission_account_storage">Grant account, storage permission to enable</string>
     <string name="content_term">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor risus, aliquet a erat quis, viverra molestie orci. Suspendisse vehicula porta libero. Nam tincidunt nulla ipsum, vel iaculis risus scelerisque sed. Phasellus venenatis, enim vel placerat blandit, leo eros bibendum erat, at auctor mauris diam ac risus. Aenean sit amet congue neque, sit amet condimentum elit. Fusce lacinia massa vel nisl scelerisque, in scelerisque dolor elementum. Vivamus leo enim, congue dictum congue vitae, porttitor id purus. Sed eu ultricies erat. Morbi hendrerit, mi ac volutpat commodo, magna turpis pretium nibh, at fringilla eros lorem quis tellus. Praesent porttitor purus nibh, ac vestibulum massa fringilla vel. Pellentesque dapibus nulla quis luctus dictum. In scelerisque ut ex sed facilisis. Nunc eu finibus nulla, ut hendrerit sem. Suspendisse accumsan risus vel diam fringilla iaculis.
@@ -113,33 +108,36 @@
 
 
     <!--=== activity Splash ==================================================================== -->
-    <string name="splash_welcome_text">WELCOME</string>
-    <string name="splash_desc_text">Browse all the interesting place using The City app</string>
+    <string name="splash_welcome_text">Bienvenido</string>
+    <string name="splash_desc_text">Aplicación para el apoyo del migrante y población Mapuche</string>
 
     <!--=== fragment Category ================================================================== -->
     <string name="refresh_failed">Refresh failed</string>
-    <string name="load_of">Load %1$d of %2$d</string>
-    <string name="load_success">Successfully load data</string>
+    <string name="load_of" translatable="false">Load %1$d of %2$d</string>
+    <string name="load_success">Data descargada</string>
 
 
     <!-- ==================== OTHERS STRING ==================================================== -->
-    <string name="action_settings">Settings</string>
-    <string name="no_internet">"No internet connection"</string>
-    <string name="task_running">Task still running</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="no_internet">"No internet "</string>
+    <string name="task_running">Tarea ejecutandose</string>
     <string name="no_item">No Item</string>
 
     <!--Basic action Text-->
     <string name="OK">OK</string>
-    <string name="YES">YES</string>
+    <string name="YES">SI</string>
     <string name="NO">NO</string>
-    <string name="SETTING">SETTING</string>
-    <string name="CANCEL">CANCEL</string>
-    <string name="SAVE">SAVE</string>
-    <string name="DISMISS">DISMISS</string>
-    <string name="HIDE">HIDE</string>
-    <string name="RETRY">RETRY</string>
-    <string name="DETAILS">DETAILS</string>
-    <string name="FAILED">FAILED</string>
+    <string name="SETTING">AJUSTES</string>
+    <string name="CANCEL">CANCELAR</string>
+    <string name="SAVE">GUARDAR</string>
+    <string name="DISMISS">SALIR</string>
+    <string name="HIDE">OCULTAR</string>
+    <string name="RETRY">REINTENTAR</string>
+    <string name="DETAILS">DETALLES</string>
+    <string name="FAILED">FALLO</string>
+    <string name="privacy_policy_url">https://challwafe.com/politicadeprivacidad/</string>
+    <string name="navigation_drawer_open">Abrir Navegador</string>
+    <string name="fail_dial_number">telefono no responde</string>
 
 
 </resources>

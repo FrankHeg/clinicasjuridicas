@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.google.android.gms.ads.MobileAds;
+//import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;

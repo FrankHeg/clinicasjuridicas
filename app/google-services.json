@@ -1,38 +1,36 @@
 {
   "project_info": {
-    "project_number": "0000000000000",
-    "firebase_url": "https://xxxxxxx.firebaseio.com",
-    "project_id": "the-city-api"
+    "project_number": "416202575108",
+    "project_id": "clinicasjuridicas-1b538",
+    "storage_bucket": "clinicasjuridicas-1b538.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:0000000000000:android:xxxxxxxxxxxxxxxx",
+        "mobilesdk_app_id": "1:416202575108:android:aa50931df6699a7e321451",
         "android_client_info": {
-          "package_name": "com.app.thecity"
+          "package_name": "com.challwafe.clinicas"
         }
       },
       "oauth_client": [
         {
-          "client_id": "0000000000000-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+          "client_id": "416202575108-2mohga74dvf587og9jh0u99mgvt8i7b7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+          "current_key": "AIzaSyCr8i9ABo0cj4lTm4cnELwQjigjK86X-IU"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416202575108-2mohga74dvf587og9jh0u99mgvt8i7b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

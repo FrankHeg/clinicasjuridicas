@@ -112,7 +112,7 @@ public class ActivityPlaceDetail extends AppCompatActivity {
         fabToggle();
         setupToolbar(place.name == null ? "" : place.name);
         initMap();
-        prepareAds();
+
 
         // handle when favorite button clicked
         fab.setOnClickListener(new View.OnClickListener() {
@@ -346,10 +346,7 @@ public class ActivityPlaceDetail extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void prepareAds() {
-        AdNetworkHelper adNetworkHelper = new AdNetworkHelper(this);
-        adNetworkHelper.loadBannerAd(AdConfig.ADS_PLACE_DETAILS_BANNER);
-    }
+
 
     @Override
     protected void onDestroy() {

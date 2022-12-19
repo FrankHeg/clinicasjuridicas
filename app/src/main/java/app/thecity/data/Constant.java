@@ -7,11 +7,11 @@ public class Constant {
      */
 
     // Edit WEB_URL with your url. Make sure you have backslash('/') in the end url
-    public static String WEB_URL = "http://demo.dream-space.web.id/the_city/";
+    public static String WEB_URL = "http://clinicasjuridicas.chall2.com/";
 
     // for map zoom
-    public static final double city_lat = -6.9174639;
-    public static final double city_lng = 107.6191228;
+    public static final double city_lat = -38.739135;
+    public static final double city_lng = -72.590267;
 
     /**
      * ------------------- DON'T EDIT THIS ---------------------------------------------------------

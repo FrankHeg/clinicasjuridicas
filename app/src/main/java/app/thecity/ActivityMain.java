@@ -97,7 +97,7 @@ public class ActivityMain extends AppCompatActivity {
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        navigationView = (Navi0gationView) findViewById(R.id.nav_view);
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {

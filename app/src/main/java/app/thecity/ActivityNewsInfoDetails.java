@@ -20,10 +20,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.balysv.materialripple.MaterialRippleLayout;
-import com.google.ads.mediation.admob.AdMobAdapter;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.ads.mediation.admob.AdMobAdapter;
+//import com.google.android.gms.ads.AdListener;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
 import com.google.android.material.appbar.AppBarLayout;
 
 import java.util.ArrayList;
@@ -77,7 +77,7 @@ public class ActivityNewsInfoDetails extends AppCompatActivity {
         initComponent();
         initToolbar();
         displayData();
-        prepareAds();
+
 
         // analytics tracking
         ThisApplication.getInstance().trackScreenView("View News Info : " + newsInfo.title);
@@ -100,10 +100,7 @@ public class ActivityNewsInfoDetails extends AppCompatActivity {
         ((AppBarLayout) findViewById(R.id.appbar)).setBackgroundColor(new SharedPref(this).getThemeColorInt());
     }
 
-    private void prepareAds() {
-        AdNetworkHelper adNetworkHelper = new AdNetworkHelper(this);
-        adNetworkHelper.loadBannerAd(AdConfig.ADS_NEWS_DETAILS_BANNER);
-    }
+
 
     private void displayData() {
         ((TextView) findViewById(R.id.title)).setText(Html.fromHtml(newsInfo.title));
